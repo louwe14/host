@@ -5,10 +5,6 @@ document.querySelector(".menu-container-part-2").addEventListener("click", () =>
     change_menu_state()
 })
 
-addEventListener("resize", () => {
-    location.reload()
-})
-
 window.scrollTo(0,0)
 
 function disableScroll() {
