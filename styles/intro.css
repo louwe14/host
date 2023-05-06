@@ -1,0 +1,46 @@
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 210vh;
+    overflow: hidden;
+}
+.container-intro-1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.container-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logo-intro{
+    height: 33vh;
+    opacity: 0;
+    margin-top: 20px;
+}
+.container-text {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.hide {
+    background-color: white;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.text-intro {
+    font-family: "DM sans", sans-serif;
+    font-size: 40px;
+    transform: translateY(100%);
+    display: inline-block;
+}
+.container-intro-2 {
+    width: 100vw;
+    height: 110vh;
+    background-color: #0F4E81;
+}
