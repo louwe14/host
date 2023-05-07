@@ -235,7 +235,7 @@ function get_device() {
     if (window.innerWidth > 1024 ) {
         device = "laptop large"
     }
-    else if (window.innerWidth > 850) {
+    else if (window.innerWidth > 768) {
         device = "laptop"
     }
     else if (window.innerWidth > 425) {
