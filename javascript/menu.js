@@ -7,7 +7,7 @@ document.querySelector(".menu-container-part-2").addEventListener("click", () =>
 
 window.scrollTo(0,0)
 
-addEventListener("resize", () => {
+window.addEventListener("resize", () => {
     location.reload()
 })
 
