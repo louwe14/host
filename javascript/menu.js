@@ -7,6 +7,10 @@ document.querySelector(".menu-container-part-2").addEventListener("click", () =>
 
 window.scrollTo(0,0)
 
+addEventListener("resize", () => {
+    location.reload()
+})
+
 function disableScroll() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
